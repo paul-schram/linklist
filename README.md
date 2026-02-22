@@ -2,13 +2,16 @@
 
 Moderner Darkmode: Sanfte Blau-Grau-Töne mit Cyan-Akzenten.
 
-Fully Responsive: Perfekte Darstellung auf Smartphones, Tablets und Desktops.
+Responsive - optimiert für Smartphones, Tablets und Desktops.
 
 Animationen: Dezente Fade-In und Hover-Effekte für ein hochwertiges Nutzererlebnis.
 
 Lightweight: Kein JavaScript, keine externen Frameworks, keine Tracker.
 
 Integrierter Footer für Impressum und Datenschutz.
+
+#### (Keine Rechtsberatung!)
+Vorgefertigte Dateien für Impressum und Datenschutz 
 
 ## Quick Start:
 
@@ -22,6 +25,8 @@ Passe die Links im HTML-Code an.
 
 Suche im Code nach den folgenden Stellen, um die Seite zu personalisieren:
 
+Ersetze die Platzhalter für Name [Vorname Nachname], Adresse [Adresse] und E-Mail Adressen [mailadresse]
+
 Farben: Ändere die CSS-Variablen im :root Bereich für ein eigenes Farbschema.
 
-Social Links: Trage deine URLs in die href-Attribute der link-card Klassen ein.
+Links: Trage deine URLs in die href-Attribute der link-card Klassen ein.
