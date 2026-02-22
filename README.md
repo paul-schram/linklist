@@ -1,3 +1,7 @@
+## Ausprobieren:
+
+https://paul-schram.github.io/linklist
+
 ## Features:
 
 Moderner Darkmode: Sanfte Blau-Grau-Töne mit Cyan-Akzenten.
@@ -14,6 +18,8 @@ Integrierter Footer für Impressum und Datenschutz.
 Vorgefertigte Dateien für Impressum und Datenschutz 
 
 ## Quick Start:
+
+Teste die Oberfläche unter https://paul-schram.github.io/linklist
 
 Klone das Repository oder lade die Dateien index.html, datenschutz.html und impressum.html herunter.
 
