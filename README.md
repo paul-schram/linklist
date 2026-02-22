@@ -19,7 +19,7 @@ Klone das Repository oder lade die Dateien index.html, datenschutz.html und impr
 
 Öffne die Datei in deinem Browser, um das Design zu sehen.
 
-Passe die Links im HTML-Code an.
+Passe die Dateien an (s. Anpassung):
 
 ## Anpassung:
 
