@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!-- Diese Texte sind keine Rechtsberatung und müssen auf eigene Gefahr geprüft werden. -->
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutz</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: rgba(30, 41, 59, 0.7);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent: #38bdf8;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: 'Inter', -apple-system, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 650px;
+            flex: 1;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            font-size: 40px;
+            font-weight: 800;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            letter-spacing: -0.025em;
+        }
+
+        h2 {
+            color: var(--accent);
+            margin-top: 40px;
+            font-size: 1.3rem;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            color: var(--text-primary);
+            font-size: 1.1rem;
+            margin-top: 25px;
+            text-align: left;
+        }
+
+        p {
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-top: 10px;
+            text-align: left;
+            font-size: 0.95rem;
+        }
+
+        .link-card {
+            background: var(--card-bg);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 14px 24px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: var(--text-primary);
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            margin: 50px 0;
+            backdrop-filter: blur(10px);
+            transition: var(--transition);
+        }
+
+        .link-card:hover {
+            transform: scale(1.02);
+            border-color: var(--accent);
+            background: rgba(56, 189, 248, 0.1);
+        }
+
+        .link-card img { filter: invert(1); }
+
+        footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            width: 100%;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        .footer-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover { color: var(--accent); }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Datenschutz</h1>
+
+    <h2>1. Datenschutz auf einen Blick</h2>
+    <h3>Allgemeine Hinweise</h3>
+    <p>Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können.</p>
+
+    <h2>2. Hosting</h2>
+    <p>Wir hosten unsere Website bei einem externen Dienstleister (Hoster). Die personenbezogenen Daten, die auf dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert. Dies können v. a. IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Webseitenzugriffe und sonstige Daten, die über eine Website generiert werden, sein.</p>
+
+    <h2>3. Allgemeine Hinweise und Pflichtinformationen</h2>
+    <h3>Datenschutz</h3>
+    <p>Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.</p>
+
+    <h3>Hinweis zur verantwortlichen Stelle</h3>
+    <p>Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</p>
+    <p>
+        Vorname Nachname<br>
+        E-Mail: <a href="mailto:mailadresse" style="color: var(--accent);">mailadresse</a>
+    </p>
+
+    <h3>Widerruf Ihrer Einwilligung zur Datenverarbeitung</h3>
+    <p>Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns.</p>
+
+    <h2>4. Datenerfassung auf dieser Website</h2>
+    <h3>Anfrage per E-Mail</h3>
+    <p>Wenn Sie uns per E-Mail kontaktieren, wird Ihre Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten (Name, Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.</p>
+
+    <h2>5. Soziale Medien und externe Links</h2>
+    <p>Auf dieser Website sind Links zu Diensten wie GitHub, Discord und Signal enthalten. Diese Links sind keine Social-Media-Plugins, sondern lediglich Verknüpfungen. Wenn Sie diese Links anklicken, werden keine Daten an die Anbieter übertragen, solange Sie auf unserer Seite bleiben. Sobald Sie die Links anklicken, verlassen Sie unsere Website und es gelten die Bestimmungen der jeweiligen Anbieter.</p>
+
+    <a href="index.html" class="link-card">
+        Zurück zur Hauptseite
+    </a>
+</div>
+
+<footer>
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="impressum.html">Impressum</a>
+    </div>
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
