@@ -1,4 +1,5 @@
-✨ Features
+## Features:
+
 Moderner Darkmode: Sanfte Blau-Grau-Töne mit Cyan-Akzenten.
 
 Fully Responsive: Perfekte Darstellung auf Smartphones, Tablets und Desktops.
@@ -9,14 +10,16 @@ Lightweight: Kein JavaScript, keine externen Frameworks, keine Tracker.
 
 Integrierter Footer für Impressum und Datenschutz.
 
-🚀 Quick Start
-Klone das Repository oder kopiere den Code aus der index.html.
+## Quick Start:
+
+Klone das Repository oder lade die Dateien index.html, datenschutz.html und impressum.html herunter.
 
 Öffne die Datei in deinem Browser, um das Design zu sehen.
 
 Passe die Links im HTML-Code an.
 
-🛠️ Anpassung
+## Anpassung:
+
 Suche im Code nach den folgenden Stellen, um die Seite zu personalisieren:
 
 Farben: Ändere die CSS-Variablen im :root Bereich für ein eigenes Farbschema.
